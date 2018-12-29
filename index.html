@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mathematics Notebooks</title>
+  <link rel="icon" type="image/png" href="img/Pi-symbol.svg">
+  <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!--Header-->
+  <div class="container-fluid">
+    <div class="row title">
+      <h1 class="title d-flex col-sm-12 justify-content-center mt-5">Mathematics Notebooks</h1>
+    </div>
+    <div class="row title">
+      <h5 class="title d-flex col-sm-12 justify-content-center mb-5">Complete Undergraduate Curriculum</h5>
+    </div>
+
+    <!--Courses-->
+    <div class="row my-5">
+      <div class="nav d-flex col-sm-4 offset-1">
+        <ul class="courses">
+          <li><button onclick="change(143)" class="btn-block mb-1 py-1 bg-primary">Math 143 College
+              Algebra</button></li>
+          <li><button onclick="change(144)" class="btn-block mb-1 py-1 bg-secondary">Math 144 Analytical
+              Triginometry</button></li>
+          <li><button onclick="change(170)" class="btn-block mb-1 py-1 bg-success">Math 170 Claculus I</button></li>
+          <li><button onclick="change(175)" class="btn-block mb-1 py-1 bg-danger">Math 175 Claculus
+              II</button></li>
+          <li><button onclick="change(2751)" class="btn-block mb-1 py-1 bg-warning">Math 275
+              Multivariable and Vector Calculus, part 1</button></li>
+          <li><button onclick="change(2752)" class="btn-block mb-1 py-1 bg-warning">Math 275
+              Multivariable and Vector Calculus, part 2</button></li>
+          <li><button onclick="change(301)" class="btn-block mb-1 py-1 bg-info">Math 301
+              Introduction to Linear Algebra</button></li>
+          <li><button onclick="change('h301')" class="btn-block mb-1 py-1 bg-info">Math 301 Homework</button></li>
+          <li><button onclick="change('a301')" class="btn-block mb-1 py-1 bg-info">Math 301
+              Activities</button></li>
+          <li><button onclick="change('t301')" class="btn-block mb-1 py-1 bg-info">Math 301 Tests</button></li>
+          <li><button onclick="change(314)" class="btn-block mb-1 py-1 bg-success">Math 314
+              Foundations of Analysis</button></li>
+          <li><button onclick="change(333)" class="btn-block mb-1 py-1 bg-primary">Math 333
+              Differential Equations with Matrix Theory</button></li>
+          <li><button onclick="change('q333')" class="btn-block mb-1 py-1 bg-primary">Math 333 Quizzes</button></li>
+          <li><button onclick="change('t333')" class="btn-block mb-1 py-1 bg-primary">Math 333 Tests</button></li>
+          <li><button onclick="change(361)" class="btn-block mb-1 py-1 bg-secondary">Math 361
+              Probability and Statistics</button></li>
+          <li><button onclick="change('h361')" class="btn-block mb-1 py-1 bg-secondary">Math 361 Homework</button></li>
+          <li><button onclick="change(365)" class="btn-block mb-1 py-1 bg-danger">Math 365
+              Introduction to Computational Math</button></li>
+          <li><button onclick="change('h365')" class="btn-block mb-1 py-1 bg-danger">Math 365 Matlab
+              Homework</button></li>
+          <li><button onclick="change(403)" class="btn-block mb-1 py-1 bg-warning">Math 403 Linear
+              Algebra</button></li>
+          <li><button onclick="change('h403')" class="btn-block mb-1 py-1 bg-warning">Math 403 Homework</button></li>
+          <li><button onclick="change(427)" class="btn-block mb-1 py-1 bg-info">Math 427 Applied
+              Mathematics for Scientists and Engineers</button></li>
+          <li><button onclick="change('h427')" class="btn-block mb-1 py-1 bg-info">Math 427 Homework</button></li>
+          <li><button onclick="change('t427')" class="btn-block mb-1 py-1 bg-info">Math 427 Tests</button></li>
+          <li><button onclick="change(436)" class="btn-block mb-1 py-1 bg-success">Math 436 Partial
+              Differential Equations</button></li>
+          <li><button onclick="change('h436')" class="btn-block mb-1 py-1 bg-success">Math 436 Homework</button></li>
+          <li><button onclick="change('t436')" class="btn-block mb-1 py-1 bg-success">Math 436 Tests</button></li>
+          <li><button onclick="change(465)" class="btn-block mb-1 py-1 bg-primary">Math 465 Numerical
+              Methods</button></li>
+          <li><button onclick="change('h465')" class="btn-block mb-1 py-1 bg-primary">Math 465 Homework</button></li>
+          <li><button onclick="change('q465')" class="btn-block mb-1 py-1 bg-primary">Math 465 Quizzes</button></li>
+          <li><button onclick="change('t465')" class="btn-block mb-1 py-1 bg-primary">Math 465 Tests</button></li>
+          <li><button onclick="change('senior')" class="btn-block mb-1 py-1 bg-warning">Boise State University Senior
+              Thesis</button></li>
+        </ul>
+      </div>
+
+      <!--pdf's-->
+      <div class="d-flex col-sm-5 offset-1" id="pdf">
+        <iframe src="https://drive.google.com/file/d/0BzhRKR0oJlTnNDdZSW1naXdudmRVRTJwUEZTVjQ3b2hQcmMw/preview" width="840px"
+          height="740px"></iframe>
+      </div>
+
+    </div>
+
+    <!--Varsity Tutors-->
+    <div class="row">
+      <div class="mt-5 varsity d-flex col-sm-12 justify-content-center">
+        <a href="https://www.varsitytutors.com/tutors/878532237" target="_blank"><img src="img/Varsity_Tutors.png" alt=""
+            class="shadow-lg my-5 varsity_tutors" height="400px" width="700px"></a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer>
+    <div class="row bg-primary py-4 mt-5">
+      <div class="col-sm-12 d-flex align-items-center justify-content-center pt-5">
+        <a href="https://www.facebook.com/bailey.wilcox19" target="_blank"><i class="fab fa-facebook fa-3x footer-icons mr-4 text-white"></i></a>
+        <a href="https://www.instagram.com/baileywilcox/" target="_blank"><i class="fab fa-instagram fa-3x footer-icons mx-5 text-white"></i></a>
+        <a href="mailto:info@mathematicsnotebooks.com" target="_blank"><i class="far fa-envelope fa-3x footer-icons ml-4 text-white"></i></a>
+      </div>
+      <div class="col d-flex justify-content-center bg-primary pt-5">
+        <p class="text-white copyright">© 2019 Bailey Wilcox All Rights
+          Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
