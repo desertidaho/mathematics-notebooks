@@ -4,11 +4,7 @@ body {
   color: black;
 }
 
-
-ul {
-  list-style: none;
-}
-
-button {
-  border-radius: 1rem;
+.nav button {
+  padding: 0.5rem 0.5rem !important;
+  border-radius: 5px;
 }

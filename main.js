@@ -33,5 +33,5 @@ let pdfs = {
 }
 
 function change(key) {
-  document.getElementById('pdf').innerHTML = `<iframe src="${pdfs[key]}" width="840px" height="740px"></iframe>`
+  document.getElementById('pdf').innerHTML = `<iframe src="${pdfs[key]}" width="840px" height="920px"></iframe>`
 }
