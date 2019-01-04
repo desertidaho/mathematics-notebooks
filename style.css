@@ -27,20 +27,16 @@ body {
     font-size: 1.3rem;
   }
 
-  .courses-left {
-    margin: 0 0 2.6rem 0;
+  button {
+    font-size: 0.6rem !important;
   }
 
-  .nav>button {
-    margin: -2rem 1rem 0 2.2rem;
-    width: 100%;
-    height: auto;
+  .courses-left {
+    margin: 0 0 2.6rem 2rem;
   }
 
   #pdf {
-    margin: 4rem 10rem 0 10rem !important;
-    height: 35rem;
-    width: 100%;
+    margin-left: 1rem;
   }
 
   .varsity_tutors {
@@ -74,15 +70,23 @@ body {
     font-size: 0.9rem;
   }
 
+  .courses-left {
+    margin: -3rem 0 0.5rem 0 !important;
+  }
+
+  button {
+    margin-left: 0.6rem !important;
+  }
+
   #pdf {
-    margin-top: 4rem !important;
+    margin-top: 3rem !important;
     margin-left: 0 !important;
     height: 25rem;
     width: 100%;
   }
 
   .varsity_tutors {
-    margin: 0 0 !important;
+    margin: -1rem 0 !important;
     height: auto;
     width: 100%;
   }
@@ -98,6 +102,5 @@ body {
   .copyright {
     font-size: 0.8rem;
   }
-
 
 }
