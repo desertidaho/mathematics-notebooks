@@ -57,5 +57,17 @@ body {
     width: 100%;
   }
 
+  .fa-facebook {
+    margin-right: -1rem !important;
+  }
+
+  .fa-envelope {
+    margin-left: -1rem !important;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
 
 }
