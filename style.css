@@ -12,7 +12,6 @@ body {
   padding: 0.5rem 0.5rem !important;
   border-radius: 5px;
   font-size: 0.8rem;
-  border: 1px solid black;
 }
 
 #pdf {
@@ -20,7 +19,7 @@ body {
 }
 
 .varsity_tutors {
-  border: 1px solid black;
+  border: 1px solid rgb(165, 164, 164);
 }
 
 @media (max-device-width: 1024px) {
