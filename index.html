@@ -23,17 +23,17 @@
 </head>
 
 <body>
-  <!--Header-->
   <div class="container-fluid">
+    <!--Header-->
     <div class="row title">
       <h1 class="title d-flex col-sm-12 justify-content-center mt-5">Mathematics Notebooks</h1>
     </div>
     <div class="row title">
       <h6 class="sub-title d-flex col-sm-12 justify-content-center mb-5">Bailey's Complete Undergraduate Curriculum</h6>
     </div>
-
-    <!--Courses-->
+    <!--Courses, pdf-->
     <div class="row my-5">
+      <!--Column 1 courses-->
       <div class="courses-left nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
         <button onclick="change(143)" class="btn-block shadow py-1 bg-primary">Math 143 College
           Algebra</button>
@@ -62,6 +62,7 @@
           Probability and Statistics</button>
         <button onclick="change('h361')" class="btn-block shadow py-1 bg-secondary">Math 361 Homework</button>
       </div>
+      <!--Column 2 courses-->
       <div class="courses-right nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
         <button onclick="change(365)" class="btn-block shadow py-1 bg-success">Math 365
           Introduction to Computational Math</button>
@@ -86,27 +87,21 @@
         <button onclick="change('senior')" class="btn-block shadow py-1 bg-info">Boise State University Senior
           Thesis</button>
       </div>
-
-
-      <!--pdf's-->
+      <!--pdf-->
       <div class="d-flex col-sm-12 col-md-7 col-lg-7 justify-content-center" id="pdf">
         <iframe class="ipdf shadow" src="https://drive.google.com/file/d/0BzhRKR0oJlTnNDdZSW1naXdudmRVRTJwUEZTVjQ3b2hQcmMw/preview"
           width="840px" height="auto"></iframe>
       </div>
-
-
     </div>
 
-    <!--Varsity Tutors-->
+    <!--Varsity Tutors image hyperlink-->
     <div class="row">
       <div class="my-5 varsity d-flex col-sm-12 col-xs-12 justify-content-center">
         <a href="https://www.varsitytutors.com/tutors/878532237" target="_blank"><img src="img/Varsity_Tutors.png" alt=""
             class="shadow-lg my-5 varsity_tutors" height="400px" width="700px"></a>
       </div>
     </div>
-
   </div>
-
 
   <footer>
     <div class="row bg-primary py-4 mt-5">
@@ -122,11 +117,7 @@
     </div>
   </footer>
 
-
-
-
   <script src="main.js"></script>
-
 </body>
 
 </html>
