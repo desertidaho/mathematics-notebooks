@@ -10,7 +10,7 @@ body {
 
 .nav button {
   padding: 0.5rem 0.5rem !important;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 0.8rem;
 }
 
@@ -18,6 +18,8 @@ body {
   margin-left: 3rem;
 }
 
+button,
+.ipdf,
 .varsity_tutors {
   border: 1px solid rgb(165, 164, 164);
 }
@@ -29,7 +31,7 @@ body {
   }
 
   .sub-title {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   button {
@@ -72,7 +74,7 @@ body {
   }
 
   .sub-title {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .courses-left {
@@ -86,7 +88,7 @@ body {
   #pdf {
     margin-top: 3rem !important;
     margin-left: 0 !important;
-    height: 25rem;
+    height: 23rem;
     width: 100%;
   }
 
