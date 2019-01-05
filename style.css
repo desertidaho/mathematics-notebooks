@@ -11,10 +11,16 @@ body {
 .nav button {
   padding: 0.5rem 0.5rem !important;
   border-radius: 5px;
+  font-size: 0.8rem;
+  border: 1px solid black;
 }
 
 #pdf {
-  margin-left: 4rem;
+  margin-left: 3rem;
+}
+
+.varsity_tutors {
+  border: 1px solid black;
 }
 
 @media (max-device-width: 1024px) {
@@ -63,11 +69,11 @@ body {
 @media (max-device-width: 767px) {
 
   .title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .sub-title {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .courses-left {
@@ -75,7 +81,7 @@ body {
   }
 
   button {
-    margin-left: 0.6rem !important;
+    margin-left: 0.8rem !important;
   }
 
   #pdf {
