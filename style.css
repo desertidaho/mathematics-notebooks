@@ -2,8 +2,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden !important;
   color: black;
-  background-image: url("img/Pi-symbol.svg");
 }
+
+.panorama {}
 
 .courses-left {
   margin-left: 3rem;
@@ -76,6 +77,10 @@ button,
 
   .sub-title {
     font-size: 0.7rem;
+  }
+
+  .panorama-img {
+    height: 200px;
   }
 
   .courses-left {
