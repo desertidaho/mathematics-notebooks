@@ -16,12 +16,12 @@ let pdfs = {
   t333: "https://drive.google.com/file/d/1J17-eahV1lnEONnleNFa3-pBgOf9o2_7/preview",
   361: "https://drive.google.com/file/d/1tpc6xmjlNb5cnlTEiGTa-3kIzTBmSnRK/preview", //needs changed
   h361: "https://drive.google.com/file/d/1tpc6xmjlNb5cnlTEiGTa-3kIzTBmSnRK/preview",
-  t361: "https://drive.google.com/file/d/1tpc6xmjlNb5cnlTEiGTa-3kIzTBmSnRK/preview",
+  t361: "https://drive.google.com/file/d/1tpc6xmjlNb5cnlTEiGTa-3kIzTBmSnRK/preview", //needs changed
   365: "https://drive.google.com/file/d/1Elj0ippFo6I6XXopugNqCqVur-XsKQj1/preview",
   h365: "https://drive.google.com/file/d/1lZJWFUmQnU623SEbF0rwtNAnzb67iwea/preview",
   403: "https://drive.google.com/file/d/1PxLfc1G9DZRV96osinaIml0kaGe0t8CZ/preview",
-  h403: "https://drive.google.com/file/d/10mOyU_xX-bxIJrCm1DlHNDgc37v6feiD/preview",
-  t403: "https://drive.google.com/file/d/10mOyU_xX-bxIJrCm1DlHNDgc37v6feiD/preview", //needs changed
+  h403: "https://drive.google.com/file/d/1T6Ezmvp_A-XOGQoSjG4sKIDVY_iB4RZw/preview",
+  t403: "https://drive.google.com/file/d/1ojAh1S7VZnfxWppEyLMDSuxRcM6HElBj/preview",
   427: "https://drive.google.com/file/d/1gKdO0dtxaXqzdlnmK2EuqZeGV_MIsNX6/preview",
   h427: "https://drive.google.com/file/d/1X2osR7lxCstbqNKhiiv8xB9t6hAG3weS/preview",
   t427: "https://drive.google.com/file/d/1kdsJsz9ntNo1VAr3rDK6onn-1Eg6YLG8/preview",
