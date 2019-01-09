@@ -14,9 +14,9 @@ let pdfs = {
   333: "https://drive.google.com/file/d/1l4SI44ev3ElwPK8DKZBWbFg9QnpOh4zO/preview",
   q333: "https://drive.google.com/file/d/193rgf47qmyEk9xnsDhixPhByzcYk8JBS/preview",
   t333: "https://drive.google.com/file/d/1J17-eahV1lnEONnleNFa3-pBgOf9o2_7/preview",
-  361: "https://drive.google.com/file/d/1tpc6xmjlNb5cnlTEiGTa-3kIzTBmSnRK/preview", //needs changed
+  361: "https://drive.google.com/file/d/1XZPpRHFySTnlYJnwzfNxYoGoP4-bjfDl/preview",
   h361: "https://drive.google.com/file/d/1tpc6xmjlNb5cnlTEiGTa-3kIzTBmSnRK/preview",
-  t361: "https://drive.google.com/file/d/1tpc6xmjlNb5cnlTEiGTa-3kIzTBmSnRK/preview", //needs changed
+  t361: "https://drive.google.com/file/d/1xbwOJARN8EDPyDt1ESbhARnwV2EhGg_v/preview",
   365: "https://drive.google.com/file/d/1Elj0ippFo6I6XXopugNqCqVur-XsKQj1/preview",
   h365: "https://drive.google.com/file/d/1lZJWFUmQnU623SEbF0rwtNAnzb67iwea/preview",
   403: "https://drive.google.com/file/d/1PxLfc1G9DZRV96osinaIml0kaGe0t8CZ/preview",
