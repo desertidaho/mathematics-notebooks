@@ -4,6 +4,10 @@ body {
   color: black;
 }
 
+.panorama {
+  border-image: 5px solid rgb(165, 164, 164);
+}
+
 .courses-left {
   margin-left: 3rem;
 }
@@ -38,8 +42,10 @@ button,
     font-size: 1rem;
   }
 
-  .panorama-img {
-    height: 260px;
+  .panorama {
+    margin: 0 0 100px 2vw !important;
+    height: 40vw;
+    width: 90vw;
   }
 
   button {
@@ -85,8 +91,10 @@ button,
     font-size: 0.7rem;
   }
 
-  .panorama-img {
-    height: 200px;
+  .panorama {
+    margin: 0 0 80px 0.5vw !important;
+    height: 40vw;
+    width: 90vw;
   }
 
   .courses-left {
@@ -108,6 +116,10 @@ button,
     margin: -1rem 0 !important;
     height: auto;
     width: 100%;
+  }
+
+  .footer-div {
+    font-size: 60%;
   }
 
   .copyright {
