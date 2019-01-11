@@ -5,7 +5,7 @@ body {
 }
 
 .panorama {
-  border-image: 5px solid rgb(165, 164, 164);
+  border: 2px solid rgb(165, 164, 164);
 }
 
 .courses-left {
@@ -43,7 +43,7 @@ button,
   }
 
   .panorama {
-    margin: 0 0 60px 2vw !important;
+    margin: 0 0 30px 2vw !important;
     height: 40vw;
     width: 90vw;
   }
@@ -92,7 +92,7 @@ button,
   }
 
   .panorama {
-    margin: 0 0 80px 0.5vw !important;
+    margin: 0 0 40px 0.5vw !important;
     height: 40vw;
     width: 90vw;
   }
