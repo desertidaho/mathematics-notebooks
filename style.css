@@ -54,9 +54,13 @@ button,
     font-size: 1.2rem;
   }
 
+  .panorama-div {
+    height: 35vh;
+  }
+
   .panorama {
-    margin: 10rem 0 0 0 !important;
-    height: 40vw;
+    margin: 0 0 0 0 !important;
+    height: 25vh;
     width: 90vw;
   }
 
@@ -96,18 +100,21 @@ button,
 @media (max-device-width: 767px) {
 
   .title-mn {
-    font-size: 1.2rem;
-  }
-
-  .nav-link {
     font-size: 1rem;
   }
 
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .panorama-div {
+    height: 30vh;
+  }
+
   .panorama {
-    margin: 0 0 40px 0 !important;
-    height: 40vw;
+    margin: 0 0 0 0 !important;
+    height: 20vh;
     width: 90vw;
-    display: initial;
   }
 
   .courses-left {
