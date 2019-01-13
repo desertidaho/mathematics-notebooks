@@ -25,17 +25,32 @@
 <body>
   <div class="container-fluid">
     <!--Header-->
-    <div class="row title">
-      <h1 class="title d-flex col-sm-12 justify-content-center mt-5">Mathematics Notebooks</h1>
+    <div class="row title d-flex justify-content-center mt-4">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand title-mn mr-5" href="#">Mathematics Notebooks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link ml-5" href="#classes">Classes</a>
+            <a class="nav-item nav-link ml-4" href="#tutoring">Tutoring</a>
+            <a class="nav-item nav-link ml-4" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
     </div>
-    <div class="row title">
-      <h6 class="sub-title d-flex col-sm-12 justify-content-center mb-4">Bailey's Complete Undergraduate Curriculum</h6>
-    </div> <br />
-    <div class="row d-flex justify-content-center mt-1">
-      <img src="img/IMG_5245new.jpg" alt="" class="shadow-lg my-5 panorama" height="400px" width="1000px">
+    <br />
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="d-flex col col-sm-12 justify-content-center align-items-center mt-3 mb-5 bg-secondary panorama-div">
+        <img src="img/IMG_5245new.jpg" alt="" class="row mt-5 shadow-lg my-5 panorama d-flex align-items-center" height="400px"
+          width="1000px">
+      </div>
     </div>
     <!--Courses, pdf-->
     <div class="row my-5">
+      <a name="classes"></a>
       <!--Column 1 courses-->
       <div class="courses-left nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
         <button onclick="change(143)" class="btn-block shadow py-1 bg-primary">Math 143 College
@@ -101,28 +116,32 @@
     </div>
 
     <!--Varsity Tutors image hyperlink-->
+    <a name="tutoring"></a>
     <div class="row">
       <div class="my-5 varsity d-flex col-sm-12 col-xs-12 justify-content-center">
         <a href="https://www.varsitytutors.com/tutors/878532237" target="_blank"><img src="img/Varsity_Tutors.png" alt=""
             class="shadow-lg my-5 varsity_tutors" height="400px" width="700px"></a>
       </div>
     </div>
-  </div>
 
-  <footer>
-    <div class="row d-flex justify-content-center bg-primary py-4 mt-5">
-      <div class="col-sm-12 d-flex align-items-end col-lg-5 pt-5 footer-div mx-4">
-        <a href="https://www.linkedin.com/in/bailey-wilcox-4749406a" target="_blank"><i class="fab fa-linkedin-in fa-3x footer-icons text-white"></i></a>
-        <a href="https://www.facebook.com/bailey.wilcox19" target="_blank"><i class="fab fa-facebook fa-3x footer-icons text-white"></i></a>
-        <a href="https://www.instagram.com/baileywilcox/" target="_blank"><i class="fab fa-instagram fa-3x footer-icons text-white"></i></a>
-        <a href="mailto:info@mathematicsnotebooks.com" target="_blank"><i class="far fa-envelope fa-3x footer-icons text-white"></i></a>
+
+    <footer>
+      <div class="row d-flex justify-content-center bg-primary py-4 mt-5">
+        <div class="col-sm-12 d-flex align-items-end col-lg-5 pt-5 footer-div mx-4">
+          <a href="https://www.linkedin.com/in/bailey-wilcox-4749406a" target="_blank"><i class="fab fa-linkedin-in fa-3x footer-icons text-white"></i></a>
+          <a href="https://www.facebook.com/bailey.wilcox19" target="_blank"><i class="fab fa-facebook fa-3x footer-icons text-white"></i></a>
+          <a href="https://www.instagram.com/baileywilcox/" target="_blank"><i class="fab fa-instagram fa-3x footer-icons text-white"></i></a>
+          <a href="mailto:info@mathematicsnotebooks.com" target="_blank"><i class="far fa-envelope fa-3x footer-icons text-white"></i></a>
+        </div>
+        <div class="row col-sm-12 d-flex justify-content-center bg-primary pt-5">
+          <p class="text-white copyright">© 2019 Bailey Wilcox All Rights
+            Reserved</p>
+        </div>
       </div>
-      <div class="row col-sm-12 d-flex justify-content-center bg-primary pt-5">
-        <p class="text-white copyright">© 2019 Bailey Wilcox All Rights
-          Reserved</p>
-      </div>
-    </div>
-  </footer>
+      <a name="contact"></a>
+    </footer>
+
+  </div>
 
   <script src="main.js"></script>
 </body>

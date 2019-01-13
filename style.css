@@ -4,6 +4,18 @@ body {
   color: black;
 }
 
+.title-mn {
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.panorama-div {
+  margin-bottom: 5rem !important;
+}
+
 .panorama {
   border: 2px solid rgb(165, 164, 164);
 }
@@ -34,16 +46,16 @@ button,
 
 @media (max-device-width: 1024px) {
 
-  .title {
-    font-size: 2rem;
+  .title-mn {
+    font-size: 2.5rem;
   }
 
-  .sub-title {
-    font-size: 1rem;
+  .nav-link {
+    font-size: 1.2rem;
   }
 
   .panorama {
-    margin: 0 0 30px 0 !important;
+    margin: 10rem 0 0 0 !important;
     height: 40vw;
     width: 90vw;
   }
@@ -83,12 +95,12 @@ button,
 
 @media (max-device-width: 767px) {
 
-  .title {
-    font-size: 1.5rem;
+  .title-mn {
+    font-size: 1.2rem;
   }
 
-  .sub-title {
-    font-size: 0.7rem;
+  .nav-link {
+    font-size: 1rem;
   }
 
   .panorama {
