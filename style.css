@@ -35,8 +35,14 @@ body {
 }
 
 button,
-.ipdf,
-.varsity_tutors {
+.ipdf {
+  border: 1px solid rgb(165, 164, 164);
+}
+
+.mathnasium {
+  margin: 0 15% !important;
+  height: auto;
+  width: 70%;
   border: 1px solid rgb(165, 164, 164);
 }
 
@@ -76,10 +82,11 @@ button,
     margin-left: 1rem;
   }
 
-  .varsity_tutors {
-    margin: -1rem 5rem !important;
+  .mathnasium {
+    margin: 0 15% !important;
     height: auto;
-    width: 80%;
+    width: 70%;
+    border: 1px solid rgb(165, 164, 164);
   }
 
   .fa-facebook {
@@ -132,10 +139,11 @@ button,
     width: 100%;
   }
 
-  .varsity_tutors {
-    margin: -1rem 0 !important;
+  .mathnasium {
+    margin: 0 15% !important;
     height: auto;
-    width: 100%;
+    width: 70%;
+    border: 1px solid rgb(165, 164, 164);
   }
 
   .footer-div {
