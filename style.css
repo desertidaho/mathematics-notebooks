@@ -132,7 +132,8 @@ button,
   }
 
   .mathnasium-img {
-    margin: -2rem 0 -2rem -0.5rem !important;
+    margin-top: -2rem !important;
+    margin-bottom: -2rem !important;
   }
 
   .footer-div {
