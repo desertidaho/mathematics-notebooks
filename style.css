@@ -20,6 +20,12 @@ body {
   border: 2px solid rgb(165, 164, 164);
 }
 
+.gray-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+}
+
 .courses-left {
   margin-left: 3rem;
 }
@@ -69,6 +75,10 @@ button,
     width: 90vw;
   }
 
+  .gray-div {
+    display: none !important;
+  }
+
   button {
     font-size: 0.6rem !important;
   }
@@ -116,8 +126,12 @@ button,
     width: 90vw;
   }
 
+  .gray-div {
+    display: none !important;
+  }
+
   .courses-left {
-    margin: -3rem 0 0.5rem 0 !important;
+    margin: 0 0 0.5rem 0 !important;
   }
 
   button {
