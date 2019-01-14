@@ -27,7 +27,7 @@
     <!--Header-->
     <div class="row title d-flex justify-content-center mt-4">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand title-mn mr-5" href="#">Mathematics Notebooks</a>
+        <a class="navbar-brand title-mn" href="#">Mathematics Notebooks</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,85 +41,95 @@
         </div>
       </nav>
     </div>
-    <br />
-    <div class="row d-flex justify-content-center align-items-center gray-div">
-      <div class="d-flex col col-sm-12 justify-content-center align-items-center mt-3 bg-secondary panorama-div">
-        <img src="img/IMG_5245new.jpg" alt="" class="row mt-5 shadow-lg my-5 panorama d-flex align-items-center" height="400px"
-          width="1000px">
+    <div class="row container-fluid d-flex justify-content-center">
+      <div class="mt-5 d-flex col-sm-6 mathnasium_about bg-light shadow">
+        <p class="pt-4 px-3">Bailey graduated from Boise State University in 2018 with a B.S. in Applied
+          Mathematics.
+          Since 2015, Bailey
+          has enjoyed
+          working as a math tutor with kids in Idaho. Bailey is often surprised by the number of people who fear math
+          and try to
+          avoid it, but has learned that with proper instruction math can be fun. She believes everyone can be good at
+          math.
+          Additionally, Bailey enjoys hiking and biking outdoors with her two dogs.</p>
       </div>
-    </div>
-    <!--Courses, pdf-->
-    <div class="row mt-2 mb-5">
-      <a name="classes"></a>
-      <!--Column 1 courses-->
-      <div class="courses-left nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
-        <button onclick="change(143)" class="btn-block shadow py-1 bg-primary">Math 143 College
-          Algebra</button>
-        <button onclick="change(144)" class="btn-block shadow py-1 bg-secondary">Math 144 Analytical
-          Triginometry</button>
-        <button onclick="change(170)" class="btn-block shadow py-1 bg-success">Math 170 Claculus I</button>
-        <button onclick="change(175)" class="btn-block shadow py-1 bg-danger">Math 175 Claculus
-          II</button>
-        <button onclick="change(2751)" class="btn-block shadow py-1 bg-warning">Math 275
-          Multivariable and Vector Calculus, part I</button>
-        <button onclick="change(2752)" class="btn-block shadow py-1 bg-warning">Math 275
-          Multivariable and Vector Calculus, part II</button>
-        <button onclick="change(287)" class="btn-block shadow py-1 bg-success">Math 287 Communications in Mathematics</button>
-        <button onclick="change(301)" class="btn-block shadow py-1 bg-info">Math 301
-          Introduction to Linear Algebra</button>
-        <button onclick="change('h301')" class="btn-block shadow py-1 bg-info">Math 301 Homework</button>
-        <button onclick="change('a301')" class="btn-block shadow py-1 bg-info">Math 301
-          Activities</button>
-        <button onclick="change('t301')" class="btn-block shadow py-1 bg-info">Math 301 Tests</button>
-        <button onclick="change(314)" class="btn-block shadow py-1 bg-secondary">Math 314
-          Foundations of Analysis</button>
-        <button onclick="change(333)" class="btn-block shadow py-1 bg-primary">Math 333
-          Differential Equations with Matrix Theory</button>
-        <button onclick="change('q333')" class="btn-block shadow py-1 bg-primary">Math 333 Quizzes</button>
-        <button onclick="change('t333')" class="btn-block shadow py-1 bg-primary">Math 333 Tests</button>
-        <button onclick="change(361)" class="btn-block shadow py-1 bg-danger">Math 361
-          Probability and Statistics</button>
-        <button onclick="change('h361')" class="btn-block shadow py-1 bg-danger">Math 361 Homework</button>
-        <button onclick="change('t361')" class="btn-block shadow py-1 bg-danger">Math 361 Tests</button>
+      <div class="mb-4 d-flex col col-sm-12 justify-content-center align-items-center">
+        <img src="img/IMG_5245new.jpg" alt="" class="row shadow-lg mt-3 mb-5 panorama d-flex align-items-center" height="360px"
+          width="800px">
       </div>
-      <!--Column 2 courses-->
-      <div class="courses-right nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
-        <button onclick="change(365)" class="btn-block shadow py-1 bg-info">Math 365
-          Introduction to Computational Math</button>
-        <button onclick="change('h365')" class="btn-block shadow py-1 bg-info">Math 365 Matlab
-          Homework</button>
-        <button onclick="change(403)" class="btn-block shadow py-1 bg-warning">Math 403 Linear
-          Algebra</button>
-        <button onclick="change('h403')" class="btn-block shadow py-1 bg-warning">Math 403 Homework</button>
-        <button onclick="change('t403')" class="btn-block shadow py-1 bg-warning">Math 403 Tests</button>
-        <button onclick="change(427)" class="btn-block shadow py-1 bg-primary">Math 427 Applied
-          Mathematics for Scientists and Engineers</button>
-        <button onclick="change('h427')" class="btn-block shadow py-1 bg-primary">Math 427 Homework</button>
-        <button onclick="change('t427')" class="btn-block shadow py-1 bg-primary">Math 427 Tests</button>
-        <button onclick="change(436)" class="btn-block shadow py-1 bg-success">Math 436 Partial
-          Differential Equations</button>
-        <button onclick="change('h436')" class="btn-block shadow py-1 bg-success">Math 436 Homework</button>
-        <button onclick="change('t436')" class="btn-block shadow py-1 bg-success">Math 436 Tests</button>
-        <button onclick="change(465)" class="btn-block shadow py-1 bg-warning">Math 465 Numerical
-          Methods</button>
-        <button onclick="change('h465')" class="btn-block shadow py-1 bg-warning">Math 465 Homework</button>
-        <button onclick="change('q465')" class="btn-block shadow py-1 bg-warning">Math 465 Quizzes</button>
-        <button onclick="change('t465')" class="btn-block shadow py-1 bg-warning">Math 465 Tests</button>
-        <button onclick="change('senior')" class="btn-block shadow py-1 bg-primary">Boise State University Senior
-          Thesis</button>
+      <!--Courses, pdf-->
+      <div class="row container-fluid mt-2 mb-5">
+        <a name="classes"></a>
+        <!--Column 1 courses-->
+        <div class="courses-left nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
+          <button onclick="change(143)" class="btn-block shadow py-1 bg-primary">Math 143 College
+            Algebra</button>
+          <button onclick="change(144)" class="btn-block shadow py-1 bg-secondary">Math 144 Analytical
+            Triginometry</button>
+          <button onclick="change(170)" class="btn-block shadow py-1 bg-success">Math 170 Claculus I</button>
+          <button onclick="change(175)" class="btn-block shadow py-1 bg-danger">Math 175 Claculus
+            II</button>
+          <button onclick="change(2751)" class="btn-block shadow py-1 bg-warning">Math 275
+            Multivariable and Vector Calculus, part I</button>
+          <button onclick="change(2752)" class="btn-block shadow py-1 bg-warning">Math 275
+            Multivariable and Vector Calculus, part II</button>
+          <button onclick="change(287)" class="btn-block shadow py-1 bg-success">Math 287 Communications in Mathematics</button>
+          <button onclick="change(301)" class="btn-block shadow py-1 bg-info">Math 301
+            Introduction to Linear Algebra</button>
+          <button onclick="change('h301')" class="btn-block shadow py-1 bg-info">Math 301 Homework</button>
+          <button onclick="change('a301')" class="btn-block shadow py-1 bg-info">Math 301
+            Activities</button>
+          <button onclick="change('t301')" class="btn-block shadow py-1 bg-info">Math 301 Tests</button>
+          <button onclick="change(314)" class="btn-block shadow py-1 bg-secondary">Math 314
+            Foundations of Analysis</button>
+          <button onclick="change(333)" class="btn-block shadow py-1 bg-primary">Math 333
+            Differential Equations with Matrix Theory</button>
+          <button onclick="change('q333')" class="btn-block shadow py-1 bg-primary">Math 333 Quizzes</button>
+          <button onclick="change('t333')" class="btn-block shadow py-1 bg-primary">Math 333 Tests</button>
+          <button onclick="change(361)" class="btn-block shadow py-1 bg-danger">Math 361
+            Probability and Statistics</button>
+          <button onclick="change('h361')" class="btn-block shadow py-1 bg-danger">Math 361 Homework</button>
+          <button onclick="change('t361')" class="btn-block shadow py-1 bg-danger">Math 361 Tests</button>
+        </div>
+        <!--Column 2 courses-->
+        <div class="courses-right nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
+          <button onclick="change(365)" class="btn-block shadow py-1 bg-info">Math 365
+            Introduction to Computational Math</button>
+          <button onclick="change('h365')" class="btn-block shadow py-1 bg-info">Math 365 Matlab
+            Homework</button>
+          <button onclick="change(403)" class="btn-block shadow py-1 bg-warning">Math 403 Linear
+            Algebra</button>
+          <button onclick="change('h403')" class="btn-block shadow py-1 bg-warning">Math 403 Homework</button>
+          <button onclick="change('t403')" class="btn-block shadow py-1 bg-warning">Math 403 Tests</button>
+          <button onclick="change(427)" class="btn-block shadow py-1 bg-primary">Math 427 Applied
+            Mathematics for Scientists and Engineers</button>
+          <button onclick="change('h427')" class="btn-block shadow py-1 bg-primary">Math 427 Homework</button>
+          <button onclick="change('t427')" class="btn-block shadow py-1 bg-primary">Math 427 Tests</button>
+          <button onclick="change(436)" class="btn-block shadow py-1 bg-success">Math 436 Partial
+            Differential Equations</button>
+          <button onclick="change('h436')" class="btn-block shadow py-1 bg-success">Math 436 Homework</button>
+          <button onclick="change('t436')" class="btn-block shadow py-1 bg-success">Math 436 Tests</button>
+          <button onclick="change(465)" class="btn-block shadow py-1 bg-warning">Math 465 Numerical
+            Methods</button>
+          <button onclick="change('h465')" class="btn-block shadow py-1 bg-warning">Math 465 Homework</button>
+          <button onclick="change('q465')" class="btn-block shadow py-1 bg-warning">Math 465 Quizzes</button>
+          <button onclick="change('t465')" class="btn-block shadow py-1 bg-warning">Math 465 Tests</button>
+          <button onclick="change('senior')" class="btn-block shadow py-1 bg-primary">Boise State University Senior
+            Thesis</button>
+        </div>
+        <!--pdf-->
+        <div class="d-flex col-sm-12 col-md-7 col-lg-7 justify-content-center" id="pdf">
+          <iframe class="ipdf shadow" src="https://drive.google.com/file/d/0BzhRKR0oJlTnNDdZSW1naXdudmRVRTJwUEZTVjQ3b2hQcmMw/preview"
+            width="840px" height="auto"></iframe>
+        </div>
       </div>
-      <!--pdf-->
-      <div class="d-flex col-sm-12 col-md-7 col-lg-7 justify-content-center" id="pdf">
-        <iframe class="ipdf shadow" src="https://drive.google.com/file/d/0BzhRKR0oJlTnNDdZSW1naXdudmRVRTJwUEZTVjQ3b2hQcmMw/preview"
-          width="840px" height="auto"></iframe>
-      </div>
-    </div>
 
-    <!--Mathnasium image hyperlink-->
-    <a name="tutoring"></a>
-    <div class="row">
-      <div class="my-5 varsity d-flex col-lg-10 offset-1 mathnasium">
-        <a href="https://www.mathnasium.com/northlasvegas" target="_blank"><img src="img/Mathnasium.png" alt="" class="shadow-lg my-5 mathnasium-img"></a>
+      <!--Mathnasium image hyperlink-->
+      <div class="row container-fluid d-flex justify-content-center">
+        <div class="my-4 varsity d-flex col-lg-10 mathnasium">
+          <a href="https://www.mathnasium.com/northlasvegas" target="_blank"><img src="img/Mathnasium.png" alt="" class="shadow-lg my-5 mathnasium-img"></a>
+        </div>
+        <a name="tutoring"></a>
       </div>
     </div>
 
