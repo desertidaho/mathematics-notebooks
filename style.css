@@ -75,11 +75,35 @@ button,
   border: 1px solid rgb(165, 164, 164);
 }
 
+.tutoring-about {
+  margin-top: 80px !important;
+  font-size: 1.3rem;
+}
+
+.mathnasium-tutor-link {
+  color: rgb(231, 16, 16);
+}
+
+.mathnasium-tutor-link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.varsity-tutor-link {
+  color: rgb(61, 61, 248);
+}
+
+.varsity-tutor-link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
 .mathnasium-img {
   width: 80vw;
   height: auto;
   border: 1px solid rgb(165, 164, 164);
   border-radius: 3px;
+  margin-bottom: 50px;
 }
 
 .footer-div {
@@ -161,7 +185,7 @@ button,
   }
 
   .panorama {
-    margin: 0 0 0 0 !important;
+    margin: 30px 0 0 0 !important;
     height: 20vh;
     width: 90vw;
   }
@@ -179,7 +203,12 @@ button,
   }
 
   .classes {
+    font-size: 1rem;
     margin-bottom: 20px !important;
+  }
+
+  .bottom-class-notes {
+    margin-left: 2rem;
   }
 
   #pdf {
@@ -187,6 +216,12 @@ button,
     margin-left: 0 !important;
     height: 24rem;
     width: 100%;
+  }
+
+  .tutoring-about {
+    margin-top: 2rem !important;
+    margin-bottom: 4rem !important;
+    font-size: 0.65rem;
   }
 
   .mathnasium-img {
