@@ -4,6 +4,28 @@ body {
   color: black;
 }
 
+.top-gray {
+  background-color: gray;
+  height: 200px;
+  margin-top: -40px !important;
+  margin-left: -40px !important;
+}
+
+header {
+  background-color: gray;
+  width: 110%;
+  transform: rotate(2deg);
+  height: 300px;
+}
+
+.navbar {
+  margin-right: 240px;
+  margin-top: 60px !important;
+  transform: rotate(-2deg);
+}
+
+.collapse {}
+
 .title-mn {
   font-size: 1.7rem;
 }
@@ -116,7 +138,11 @@ button,
 @media (max-device-width: 767px) {
 
   .title-mn {
-    font-size: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .navbar {
+    margin-right: 23vw;
   }
 
   .nav-link {
@@ -124,6 +150,7 @@ button,
   }
 
   .mathnasium_about {
+    margin-top: -2rem !important;
     font-size: 0.8rem;
   }
 
