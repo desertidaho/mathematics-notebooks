@@ -138,11 +138,12 @@ button,
 @media (max-device-width: 767px) {
 
   .title-mn {
-    font-size: 1.4rem;
+    width: 100%;
+    font-size: 1.1rem;
   }
 
   .navbar {
-    margin-right: 23vw;
+    margin-right: 20vw;
   }
 
   .nav-link {
