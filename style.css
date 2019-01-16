@@ -1,37 +1,35 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Garamond, Georgia, serif;
   overflow-x: hidden !important;
   color: black;
 }
 
 .top-gray {
-  background-color: gray;
+  background-color: rgb(196, 192, 192);
   height: 200px;
-  margin-top: -40px !important;
-  margin-left: -40px !important;
+  margin: -40px 0 0 -40px !important;
 }
 
 header {
-  background-color: gray;
+  background-color: rgb(196, 192, 192);
   width: 110%;
   transform: rotate(2deg);
   height: 300px;
+  width: 110vw;
 }
 
 .navbar {
-  margin-right: 230px;
+  margin-right: 220px;
   margin-top: 50px !important;
   transform: rotate(-2deg);
 }
-
-.collapse {}
 
 .title-mn {
   font-size: 1.7rem;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .mathnasium_about {
@@ -52,6 +50,10 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 1100px;
+}
+
+.classes {
+  text-shadow: 0.1px 0.1px rgb(165, 164, 164);
 }
 
 .courses-left {
@@ -141,8 +143,12 @@ button,
     font-size: 1.1rem;
   }
 
+  .top-gray {
+    margin-right: 100px !important;
+  }
+
   .navbar {
-    margin-right: 20vw;
+    margin-right: 17vw !important;
   }
 
   .nav-link {
@@ -170,6 +176,10 @@ button,
 
   button {
     margin-left: 0.8rem !important;
+  }
+
+  .classes {
+    margin-bottom: 20px !important;
   }
 
   #pdf {
