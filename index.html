@@ -23,60 +23,25 @@
 </head>
 
 <body>
-
   <!--Header-->
-  <div class="container top-gray">
-    <header>
-      <div class="row title d-flex justify-content-end">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand title-mn" href="#">Mathematics Notebooks</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse mt-2" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link ml-5" href="#classes">Classes</a>
-              <a class="nav-item nav-link ml-4" href="#tutoring">Tutoring</a>
-              <a class="nav-item nav-link ml-4" href="#contact">Contact</a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-  </div>
-  <div class="container-fluid"></div>
+  <header class="conatiner-fluid">
+    <div class="row title d-flex justify-content-center">
+      <h2 class="mt-5 mb-1">Mathematics Notebooks</h2>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <h6 class="mb-5">1,255 pages of university math notes</h6>
+    </div>
+  </header>
   <div class="ml-4">
     <div class="row container-fluid d-flex justify-content-center">
-      <div class="my-4 d-flex col-sm-6 mathnasium_about shadow">
-        <p class="pt-4 px-3">Bailey graduated from Boise State University in 2018 with a B.S. in Applied
-          Mathematics.
-          Since 2015, Bailey
-          has enjoyed
-          working as a math tutor with kids in Idaho and Nevada. Bailey is often surprised by the number of people
-          who fear math
-          and try to
-          avoid it, but has learned that with proper instruction math can be fun. She believes everyone can be good
-          at
-          math.
-          Additionally, Bailey enjoys hiking and biking outdoors with her two dogs.</p>
-      </div>
-      <div class="mb-4 d-flex col col-sm-12 justify-content-center align-items-center">
-        <img src="img/IMG_5245new.jpg" alt="" class="row shadow-lg mt-3 mb-5 panorama d-flex align-items-center"
-          height="360px" width="800px">
-      </div>
       <!--Courses, pdf-->
-      <div class="row container-fluid d-flex justify-content-center">
-        <a name="classes"></a>
-        <h6 class="classes top-class-click d-flex col-lg-5 col-md-5 col-sm-12 justify-content-center my-4">Click to see
-          each class.</h6>
-        <h6 class="classes bottom-class-notes d-flex col-lg-7 col-md-7 col-sm-12 justify-content-center my-4">1,255
-          pages of math notes,
-          homework, quizzes,
-          and tests.
-        </h6>
-      </div>
       <div class="row container-fluid mt-2 mb-5">
+        <!--pdf-->
+        <div class="d-flex col-sm-12 col-md-7 col-lg-7 justify-content-center mb-5" id="pdf">
+          <iframe class="ipdf shadow"
+            src="https://drive.google.com/file/d/0BzhRKR0oJlTnNDdZSW1naXdudmRVRTJwUEZTVjQ3b2hQcmMw/preview"
+            width="840px" height="auto"></iframe>
+        </div>
         <!--Column 1 courses-->
         <div class="courses-left nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
           <button onclick="change(143)" class="btn-block shadow py-1 bg-primary">Math 143 College
@@ -135,40 +100,27 @@
           <button onclick="change('senior')" class="btn-block shadow py-1 bg-primary">Boise State University Senior
             Thesis</button>
         </div>
-        <!--pdf-->
-        <div class="d-flex col-sm-12 col-md-7 col-lg-7 justify-content-center" id="pdf">
-          <iframe class="ipdf shadow"
-            src="https://drive.google.com/file/d/0BzhRKR0oJlTnNDdZSW1naXdudmRVRTJwUEZTVjQ3b2hQcmMw/preview"
-            width="840px" height="auto"></iframe>
-        </div>
+       
       </div>
     </div>
-
-    <!--Mathnasium image hyperlink-->
-
   </div>
-
 
   <footer>
     <div class="row d-flex justify-content-center bg-primary py-4 mt-5">
       <div class="col-sm-12 d-flex align-items-end col-lg-5 py-5 footer-div mx-4">
-        <a href="https://www.linkedin.com/in/bailey-wilcox-4749406a" target="_blank" data-toggle="tooltip"
-          title="LinkedIn"><i class="fab fa-linkedin-in fa-3x footer-icons text-white"></i></a>
         <a href="https://www.facebook.com/bailey.wilcox19" target="_blank" data-toggle="tooltip" title="Facebook"><i
             class="fab fa-facebook fa-3x footer-icons text-white"></i></a>
-        <a href="https://www.instagram.com/baileywilcox/" target="_blank" data-toggle="tooltip" title="Instagram"><i
+        <a href="https://www.instagram.com/alpineartforms/" target="_blank" data-toggle="tooltip" title="Instagram"><i
             class="fab fa-instagram fa-3x footer-icons text-white"></i></a>
         <a href="mailto:info@mathematicsnotebooks.com" target="_blank" data-toggle="tooltip" title="Email me"><i
             class="far fa-envelope fa-3x footer-icons text-white"></i></a>
       </div>
       <div class="row col-sm-12 d-flex justify-content-center bg-primary pt-5 pb-3">
-        <p class="text-white copyright">© 2019 BAILEY WILCOX</p>
+        <p class="text-white copyright">© 2021 Bailey Wilcox-Dost</p>
       </div>
     </div>
     <a name="contact"></a>
   </footer>
-
-  </div>
 
   <script src="main.js"></script>
 </body>

@@ -4,54 +4,6 @@ body {
   color: black;
 }
 
-.top-gray {
-  background-color: rgb(196, 192, 192);
-  height: 200px;
-  margin: -40px 0 0 -40px !important;
-}
-
-header {
-  background-color: rgb(196, 192, 192);
-  width: 110%;
-  transform: rotate(2deg);
-  height: 300px;
-  width: 110vw;
-}
-
-.navbar {
-  margin-right: 220px;
-  margin-top: 50px !important;
-  transform: rotate(-2deg);
-}
-
-.title-mn {
-  font-size: 1.7rem;
-}
-
-.nav-link {
-  font-size: 1.1rem;
-}
-
-.mathnasium_about {
-  background-color: rgb(241, 241, 241);
-  margin-bottom: 2rem !important;
-  font-size: 0.9rem;
-  border: 1px solid rgb(165, 164, 164);
-  border-radius: 3px;
-}
-
-.panorama {
-  border: 2px solid rgb(165, 164, 164);
-  border-radius: 3px;
-
-}
-
-.gray-div {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1100px;
-}
-
 .classes {
   text-shadow: 0.1px 0.1px rgb(165, 164, 164);
 }
