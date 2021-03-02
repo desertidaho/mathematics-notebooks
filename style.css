@@ -4,18 +4,22 @@ body {
   color: black;
 }
 
+.anchor {
+  text-decoration: none !important;
+  color: black;
+}
+
+.anchor:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
 .classes {
   text-shadow: 0.1px 0.1px rgb(165, 164, 164);
 }
 
 .courses-left {
   margin-left: 3rem;
-}
-
-.nav button {
-  padding: 0.5rem 0.5rem !important;
-  border-radius: 2px;
-  font-size: 0.8rem;
 }
 
 #pdf {
@@ -25,37 +29,6 @@ body {
 button,
 .ipdf {
   border: 1px solid rgb(165, 164, 164);
-}
-
-.tutoring-about {
-  margin-top: 80px !important;
-  font-size: 1.3rem;
-}
-
-.mathnasium-tutor-link {
-  color: rgb(231, 16, 16);
-}
-
-.mathnasium-tutor-link:hover {
-  color: gray;
-  text-decoration: none;
-}
-
-.varsity-tutor-link {
-  color: rgb(61, 61, 248);
-}
-
-.varsity-tutor-link:hover {
-  color: gray;
-  text-decoration: none;
-}
-
-.mathnasium-img {
-  width: 80vw;
-  height: auto;
-  border: 1px solid rgb(165, 164, 164);
-  border-radius: 3px;
-  margin-bottom: 50px;
 }
 
 .footer-div {
@@ -131,21 +104,6 @@ button,
     font-size: 0.8rem;
   }
 
-  .mathnasium_about {
-    margin-top: -2rem !important;
-    font-size: 0.8rem;
-  }
-
-  .panorama {
-    margin: 30px 0 0 0 !important;
-    height: 20vh;
-    width: 90vw;
-  }
-
-  .gray-div {
-    display: none !important;
-  }
-
   .courses-left {
     margin: 0 0 0.5rem 0 !important;
   }
@@ -174,11 +132,6 @@ button,
     margin-top: 2rem !important;
     margin-bottom: 4rem !important;
     font-size: 0.65rem;
-  }
-
-  .mathnasium-img {
-    margin-top: -2rem !important;
-    margin-bottom: -2rem !important;
   }
 
   .footer-div {
