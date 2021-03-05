@@ -12,39 +12,27 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <!--Google Adsense-->
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-0824501471021286",
-      enable_page_level_ads: true
-    });
-  </script>
 </head>
 
 <body>
   <!--Header-->
-  <header class="conatiner-fluid">
-    <div class="row title d-flex justify-content-center">
-      <h2 class="mt-5 mb-1">Mathematics Notebooks</h2>
-    </div>
-    <div class="row d-flex justify-content-center">
-      <h6 class="mb-5">1,255 pages of university math notes</h6>
-    </div>
+  <header class="conatiner">
+      <h2 class="row d-flex col-sm-12 col-md-12 col-lg-12 justify-content-center mt-5 mb-1">Mathematics Notebooks</h2>
+      <h6 class="row d-flex col-sm-12 col-md-12 col-lg-12 justify-content-center mb-5">1,255 pages of university math notes</h6>
   </header>
   <a name="pdflink"></a>
-  <div class="ml-4">
-    <div class="row container-fluid d-flex justify-content-center">
+  <div class="container">
+    <div class="row">
       <!--Courses, pdf-->
-      <div class="row container-fluid mt-2 mb-5">
+      <div class="mt-2 mb-5">
         <!--pdf-->
-        <div class="d-flex col-sm-12 col-md-7 col-lg-7 justify-content-center mb-5" id="pdf">
+        <div class="col-sm" id="pdf">
           <iframe class="ipdf shadow"
             src="https://drive.google.com/file/d/0BzhRKR0oJlTnNDdZSW1naXdudmRVRTJwUEZTVjQ3b2hQcmMw/preview"
             width="840px" height="auto"></iframe>
         </div>
         <!--Column 1 courses-->
-        <div class="courses-left nav d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
+        <div class="d-flex col-sm-12 col-md-2 col-lg-2 justify-content-center">
           <button onclick="change(143)" class="btn-block shadow py-1 bg-primary"><a href="#pdflink" class="anchor">Math 143 College
             Algebra</a></button>
           <button onclick="change(144)" class="btn-block shadow py-1 bg-secondary"><a href="#pdflink" class="anchor">Math 144 Analytical
